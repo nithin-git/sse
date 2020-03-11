@@ -1,0 +1,18 @@
+.container-label{
+    width: 30px;
+    height: 30px;
+    background: #e6e6e6;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px;
+    text-align: center;
+    padding: 3px;
+    display: block;
+    color: #333 ;
+}
+.btn{
+    font-weight: bold;
+    padding: 5px 30px;
+}

@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <div class="row ">
+    <ng-container *ngFor="let tile of tiles">
+      <div [ngClass]="activeTile == 1 ? 'col-12' : 'col-sm-12 col-md-6'" [hidden]="!tile.show">
+        <app-button-groups
+          (buttonclick)="itemClicked($event,tile)"
+          [numbers]="number"
+          [tileId]="tile.id"
+        ></app-button-groups>
+      </div>
+    </ng-container>
+  </div>
+</div>
